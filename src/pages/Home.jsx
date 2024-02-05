@@ -6,18 +6,8 @@ function Home() {
     <div className="bg-white py-40 md:pt-60 md:pb-24">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-24">
-          <h1 className="block text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-            Welcome To
-          </h1>
-          <h1 className="block text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-900">
-            React Face Auth
-          </h1>
           <p className="mt-8 text-md text-gray-600 max-w-3xl mx-4 md:mx-16 lg:mx-auto">
-            The Facial Recognition-Based Authentication Application is a
-            cutting-edge web application developed using React and face-api.js.
-            The main objective of the application is to offer a reliable and
-            efficient authentication system by analyzing and verifying the
-            user's facial features.
+            Face authorization
           </p>
           <Link
             to={"/user-select"}
